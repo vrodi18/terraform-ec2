@@ -2,7 +2,7 @@
 Creates EC2 instances
 
 ## Prerequisites
-- VPCs with "dev" | "dev" | "dev" tags ([Sample VPC template](https://github.com/ikambarov/terraform-vpc))
+- VPCs with "dev" | "qa" | "prod" tags ([Sample VPC template](https://github.com/ikambarov/terraform-vpc))
 
 - tfvars
 ```
