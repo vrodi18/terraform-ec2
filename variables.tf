@@ -67,4 +67,7 @@ data "aws_vpcs" "my-vpc" {
 
 data "aws_subnet_ids" "my-subnets" {
   vpc_id = tolist(data.aws_vpcs.my-vpc.ids)[0]
+  tags = {
+    Tier = "Public"
+  }
 }
